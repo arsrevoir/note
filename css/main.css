@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 footer {
@@ -59,7 +59,6 @@ span.pink {
 
 .curve-underline {
     margin-bottom: 60px;
-    text-align: center;
 }
 
 .curve-underline::after {
@@ -67,6 +66,7 @@ span.pink {
     display: block;
     height: 0;
     margin-top: 8px;
+    width: 725px;
     border-style: solid;
     border-width: 6px;
     border-image: url('../icon/wave-border.png') 4 / 4px;
@@ -78,6 +78,12 @@ span.pink {
     /**/
 
 /*home*/
+
+.lesson-header {
+    font-size: 34px;
+    font-family: "Formular Bold";
+    padding-bottom: 15px;
+}
 
 .home-header {
     font-family: 'Formular Bold';
@@ -145,7 +151,7 @@ span.pink {
     margin-left: 10px;
     border-radius: 100%;
     border: 2px solid var(--complementary-color);
-    transition: .2s;
+    transition: .2s border;
 }
 
 .round-button:hover {
@@ -154,7 +160,7 @@ span.pink {
 
 .round-button.active {
     background-color: var(--complementary-color);
-    transition: .2s;
+    transition: .2s background-color;
 }
 
 .round-button.active:hover {
@@ -397,6 +403,20 @@ p, ul {
 
 .hundreds-color {
     color: var(--pink);
+}
+
+.game {
+    margin: auto;
+    padding-top: 2px;
+    display: block;
+    width: 600px;
+    height: 400px;
+}
+
+.video {
+    margin: auto;
+    padding-top: 20px;
+    display: block;
 }
 
 

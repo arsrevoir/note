@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d5909f2-0fe9-4f25-8c36-f97c22e70597" name="Default Changelist" comment="" />
+    <list default="true" id="5d5909f2-0fe9-4f25-8c36-f97c22e70597" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/lesson_p-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/lesson_p-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/lesson_p-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/lesson_p-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/lesson_p-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/lesson_p-3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/css/main.css" root0="FORCE_HIGHLIGHTING" />
@@ -49,6 +58,8 @@
       <workItem from="1602765772211" duration="9622000" />
       <workItem from="1602861501022" duration="13591000" />
       <workItem from="1602894146237" duration="450000" />
+      <workItem from="1602952252526" duration="637000" />
+      <workItem from="1602971469211" duration="3032000" />
     </task>
     <servers />
   </component>
