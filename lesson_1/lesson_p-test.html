@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note Lesson Example</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../font/formular.css">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="page-wrapper">
+    <main role="main" class="page">
+        <div class="page-content --page-padding">
+            <div class="lesson-box">
+                <div class="lesson-body">
+                    <div class="lesson-top-nav">
+                        <div class="top-nav__buttons">
+                            <a href='lesson_p-1.html' class="round-button"></a><a href='lesson_p-2.html' class="round-button"></a><a href='lesson_p-3.html' class="round-button"></a><a href='lesson_p-4.html' class="round-button active"></a>
+                            <p class="nav-label">Урок 1, Тест</p>
+                        </div>
+                    </div>
+                    <div class="lesson-content">
+                        <div class="lesson-content__wrapper">
+                            <article class="lesson-main">
+                                <div class="test-container" id="test">
+                                    <div class="test-header">
+                                        <p>Запишите число <span class='test-header__num js-header-task-num'></span> словами</p>
+                                    </div>
+                                    <div class="test-answer active-block" id="answer">
+                                        <div class="test-input-contain">
+                                            <input type="text" class='test-input'>
+                                        </div>
+                                        <div class="test-submit-contain">
+                                            <button class='test-submit'>Подтвердить</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="invalid-answer not-active-block" id="invalid-answer">
+                                        <p class="invalid-answer__header">Неверно</p>
+                                        <p class="invalid-answer__user-answer">Ваш ответ: <span class="js-invalid-answer user-answer"></span></p>
+                                        <div class="explanation">
+                                            <p class="right-answer">Правильный ответ - <span style='color: var(--green);' class="js-right-answer-include"></span></p>
+                                            <p class="explanation-text">
+                                                Убедитесь, что каждое слово написано правильно, <br>а пробелы расставлены в нужных местах.
+                                                <br><br>
+                                                Сначала напишите сотни.
+                                                <br>
+                                                Напишите: <span class='js-invalid-answer_exp-hundreds hundreds-color'></span>
+                                                <br><br>
+                                                Затем напишите десятки и единицы
+                                                <br>
+                                                Напишите: <span class='js-invalid-answer_exp-tens tens-color'></span>
+                                                <br><br>
+                                                Запишите <span class="js-expl-right-answ-num"></span> как <span class="js-expl-right-answ-word"></span>.
+                                            </p>
+                                        </div>
+                                        <button class='js-invalid-answer_tryagain-button tryagain_button'>Попробовать снова</button>
+                                    </div>
+
+                                    <div class="valid-answer not-active-block" id="valid-answer">
+                                        <p class="valid-answer__header">Верно</p>
+                                        <p class="valid-answer__user-answer">Ваш ответ: <span class="js-valid-answer user-answer_right"></span></p>
+
+                                        <button class='js-valid-answer_button tryagain_button'>Дальше</button>
+                                    </div>
+                                </div>
+                                <div class="lesson_ending" id="lesson_end">
+                                    <p>Вы завершили урок!</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="lesson-bottom-nav">
+                        <div class="bottom-nav__buttons">
+                            <a href="lesson_p-4.html"><button class="medium-stroke-button">Назад</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+<script src='quiz.js'></script>
+</body>
+</html>
