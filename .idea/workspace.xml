@@ -23,14 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d5909f2-0fe9-4f25-8c36-f97c22e70597" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_2/lesson_p-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2/lesson_p-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2/lesson_p-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2/lesson_p-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2/lesson_p-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/check-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/area-edit-quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/floating-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/miniquiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/tablequiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +86,9 @@
       <workItem from="1602894146237" duration="450000" />
       <workItem from="1602952252526" duration="637000" />
       <workItem from="1602971469211" duration="5925000" />
+      <workItem from="1603026024272" duration="18176000" />
+      <workItem from="1603077794576" duration="300000" />
+      <workItem from="1603117552912" duration="3659000" />
     </task>
     <servers />
   </component>
@@ -97,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1048" y="307" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602777192557">
@@ -115,9 +124,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1602890794331" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1602878688835">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1603069544247">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1602878688835" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1603069544247" />
   </component>
 </project>
