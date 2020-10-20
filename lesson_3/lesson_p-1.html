@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note Lesson Example</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../font/formular.css">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="page-wrapper">
+    <main role="main" class="page">
+        <div class="page-content --page-padding">
+            <div class="lesson-box">
+                <div class="lesson-body">
+                    <div class="lesson-top-nav">
+                        <div class="top-nav__buttons">
+                            <a href='lesson_p-1.html' class="round-button active"></a><a href='lesson_p-2.html' class="round-button"></a><a href='lesson_p-3.html' class="round-button"></a>
+                            <a href='lesson_p-4.html' class="round-button"></a>
+                            <p class="nav-label">Інформатика, Сторінка 1</p>
+                        </div>
+                    </div>
+                    <div class="lesson-content">
+                        <div class="lesson-content__wrapper">
+                            <article class="lesson-main">
+                                <p class="lesson-text-2"><span class="higlight">Мета гри</span> — скласти програму, виконавши яку, робот-стрілка збере всі зірочки.</p>
+
+                                <div class="lesson-block" style="margin-bottom: 40px;">
+                                    <p style="font-family: 'Formular Medium'">Робот-стрілка уміє виконувати такі 5 різних вказівок:</p>
+                                    <ul class='lesson-list'>
+                                        <li style="font-family: 'Formular Medium'">поворот на 90° за напрямом руху годинникової стрілки</li>
+                                        <li style="font-family: 'Formular Medium'">поворот на 90° проти напряму руху годинникової стрілки</li>
+                                        <li style="font-family: 'Formular Medium'">рух уперед</li>
+                                        <li style="font-family: 'Formular Medium'">виконання функції</li>
+                                        <li style="font-family: 'Formular Medium'">умовний оператор за кольором поточної клітини.</li>
+                                    </ul>
+                                </div>
+
+                                <p class="lesson-text-2">Будь-яку з вказівок можна «пофарбувати» в один з трьох кольорів. Тоді її буде виконано лише тоді, коли стрілка перебуває на квадраті відповідного кольору. </p>
+                                <p class="lesson-text-2">Таким чином число різних вказівок збільшується до <span class="higlight">5·(1+3)=20.</span></p>
+                                <p class="lesson-text-2">Кількість функцій, які можна написати, та кількість вказівок, які можна використовувати в кожній з функцій, змінюється від рівня до рівня. Деякі з вказівок можуть бути недоступні на певних рівнях.</p>
+
+                                <div class="image-quiz-contain">
+                                    <p>В якому напрямку будуть спрямовані роботи після виконання вказівок, розташованих під ними?</p>
+                                    <p style="margin-top: 20px">Вважати, що перший робот ліворуч спрямований праворуч.</p>
+                                    <div class="quiz-contain">
+                                        <div class="quiz-item">
+                                            <img src="img/image7.png" alt="">
+                                            <img src="img/image2.png" alt="" style="margin-top: 40px">
+                                            <select class='thin' name="" id="q1" style="margin-top: 25px">
+                                                <option value="0">виберіть</option>
+                                                <option value="1">ліворуч</option>
+                                                <option value="2">праворуч</option>
+                                                <option value="3">вгору</option>
+                                            </select>
+                                        </div>
+                                        <div class="quiz-item">
+                                            <img src="img/image1.png" alt="">
+                                            <img src="img/image6.png" alt="" style="margin-top: 40px">
+                                            <select class='thin' name="" id="q2" style="margin-top: 25px">
+                                                <option value="0">виберіть</option>
+                                                <option value="1">вниз</option>
+                                                <option value="2">вгору</option>
+                                                <option value="3">ліворуч</option>
+                                            </select>
+                                        </div>
+                                        <div class="quiz-item">
+                                            <img src="img/image3.png" alt="">
+                                            <img src="img/image4.png" alt="" style="margin-top: 40px">
+                                            <select class='thin' name="" id="q3" style="margin-top: 25px">
+                                                <option value="0">виберіть</option>
+                                                <option value="1">вгору</option>
+                                                <option value="2">праворуч</option>
+                                                <option value="3">ліворуч</option>
+                                            </select>
+                                        </div>
+                                        <div class="quiz-item">
+                                            <img src="img/image5.png" alt="">
+                                            <img src="img/image8.png" alt="" style="margin-top: 40px">
+                                            <select class='thin' name="" id="q4" style="margin-top: 25px">
+                                                <option value="0">виберіть</option>
+                                                <option value="1">праворуч</option>
+                                                <option value="2">вгору</option>
+                                                <option value="3">вниз</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="miniquiz-submit-container" style="margin-top: 35px">
+                                        <p class="quiz-state"></p>
+                                        <button class="tablequiz-submit areasub">Перевірити</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="lesson-bottom-nav">
+                        <div class="bottom-nav__buttons">
+                            <a href="lesson_p-2.html"><button class="medium-stroke-button">Далее</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+<script src="img-quiz.js"></script>
+</body>
+</html>

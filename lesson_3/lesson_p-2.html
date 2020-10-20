@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note Lesson Example</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../font/formular.css">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="page-wrapper">
+    <main role="main" class="page">
+        <div class="page-content --page-padding">
+            <div class="lesson-box">
+                <div class="lesson-body">
+                    <div class="lesson-top-nav">
+                        <div class="top-nav__buttons">
+                            <a href='lesson_p-1.html' class="round-button"></a><a href='lesson_p-2.html' class="round-button active"></a><a href='lesson_p-3.html' class="round-button"></a>
+                            <a href='lesson_p-4.html' class="round-button"></a>
+                            <p class="nav-label">Інформатика, Сторінка 2</p>
+                        </div>
+                    </div>
+                    <div class="lesson-content">
+                        <div class="lesson-content__wrapper">
+                            <article class="lesson-main">
+                                <p class="lesson-text-2">Розглянемо, гру з назвою Stairs. У нижній частині екрану зображені клітинки програми. Натискаючи на них, отримують випадне меню, в якому зображені основні вказівки. </p>
+                                <p class="lesson-text-2">Ці вказівки стосуються поточного стану стрілки. Наприклад, повертаючи ліворуч стрілку з напрямом праворуч змінить його на напрям вгору.</p>
+                                <p class="lesson-text-2">Для такого розташування спочатку потрібно рухатись прямо, потім повернути на 90° проти руху годинникової стрілки, потім ...</p>
+                                <p class="lesson-text-2">У випадку, якщо програму написано з такою помилкою, що стрілка вийде за межі лабіринта, виконання програми можна зупинити, натиснувши клавішу ОК у вікні діалогу з повідомленням: «Fell off the puzzle». Які вказівки необхідно виконати, щоб зібрати 3 зірки та повернути стрілку «праворуч»? (див. малюнок нижче)</p>
+
+                                <div class="resize-iframe">
+                                    <iframe src="http://robozzle.com/js/play.aspx?puzzle=27" frameborder="0" class="game resize-i" width="600px"></iframe>
+                                </div>
+
+                                <p class="lesson-text-2">Чи відрізнятиметься програма для збирання наступних 3 зірок?</p>
+                                <p class="lesson-text-2"><span class="higlight">Мітки</span>. Кількість клітинок для запису програми обмежена. Для виконання однакових послідовностей вказівок доцільно використовувати мітки. За допомогою мітки переносять виконання програми на початок рядка з відповідною позначкою. Наприклад, вказівка  переносить виконання програми на початок першого з наступних трьох рядків:</p>
+
+                                <div class="side-img">
+                                    <img src="img/image21.png" alt="">
+                                </div>
+
+                                <div class="img-list">
+                                    <p>Для перевірки правильності роботи програми використовувати такі кнопки:</p>
+                                    <div class="img-list-item">
+                                        <img src="img/image26.png" alt="">
+                                        <p>- запуск / зупинка виконання всієї програми</p>
+                                    </div>
+
+                                    <div class="img-list-item">
+                                        <img src="img/image25.png" alt="">
+                                        <p>- покрокове виконання</p>
+                                    </div>
+
+                                    <div class="img-list-item">
+                                        <img src="img/image23.png" alt="">
+                                        <p>- припинення виконання</p>
+                                    </div>
+                                </div>
+
+                                <p class="lesson-text-2" style="margin: 45px 0 0 0">
+                                    Програма означить успішне виконання завдання повідомленням про кількість здійснених кроків у вікні діалогу. Натиснувши кнопку ОК у вікні діалогу та перейшовши за посиланням Back to puzzle list, можна вибрати інше завдання.
+                                </p>
+
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="lesson-bottom-nav">
+                        <div class="bottom-nav__buttons">
+                            <a href="lesson_p-1.html"><button class="medium-stroke-button">Назад</button></a>
+                            <a href="lesson_p-3.html"><button class="medium-stroke-button">Далее</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+</body>
+</html>

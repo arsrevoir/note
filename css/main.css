@@ -58,7 +58,7 @@ span.pink {
 }
 
 .curve-underline {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .curve-underline::after {
@@ -197,7 +197,7 @@ span.pink {
 .lesson-main p.lesson-text {
     font-size: 21px;
     font-family: 'Formular Medium';
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 p, ul {
@@ -655,4 +655,107 @@ select.thin {
 .selected-answer {
     white-space: normal;
     text-decoration: none;
+}
+
+.image-quiz-contain {
+    margin-top: 60px;
+}
+
+.quiz-contain {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resize-iframe {
+    margin-top: 40px;
+    margin-bottom: -125px;
+}
+
+.game-resize {
+    width: 600px;
+    height: 100%;
+    -moz-transform: scale(0.25, 0.25);
+    -webkit-transform: scale(0.25, 0.25);
+    -o-transform: scale(0.25, 0.25);
+    -ms-transform: scale(0.25, 0.25);
+    transform: scale(0.25, 0.25);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.side-img {
+    padding-top: 5px;
+}
+
+.img-list {
+    padding-top: 50px;
+}
+
+.img-list p {
+    font-family: "Formular Medium";
+    font-size: 20px;
+}
+
+.img-list-item {
+    margin-top: 20px;
+    display: flex;
+}
+
+.img-list-item p {
+    margin-left: 10px;
+}
+
+.thin-highlight {
+    font-family: 'Formular Light';
+}
+
+.code-contain {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.code-contain p {
+    font-family: 'Formular';
+}
+
+.code-contain p::after {
+    content: "";
+    display: block;
+    height: 0;
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 352px;
+    border-style: solid;
+    border-width: 6px;
+    border-image: url('../icon/wave-border.png') 4 / 4px;
+    -moz-border-image: url('../icon/wave-border.png') 4 / 4px;
+    -webkit-border-image: url('../icon/wave-4.png') 4 / 4px;
+    -o-border-image: url('../icon/wave-border.png') 4 / 4px;
+}
+
+.resize-i {
+    width: 800px;
+    height: 700px;
+    -moz-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    margin-left: 100px;
 }
