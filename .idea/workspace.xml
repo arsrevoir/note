@@ -23,15 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d5909f2-0fe9-4f25-8c36-f97c22e70597" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_3/img-quiz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/lesson_p-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/lesson_p-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/lesson_p-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/lesson_p-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/lesson_p-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/lesson_p-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_3/lesson_p-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/lesson_p-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_3/lesson_p-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/lesson_p-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_3/lesson_p-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/lesson_p-3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -86,6 +83,7 @@
       <workItem from="1603077794576" duration="300000" />
       <workItem from="1603117552912" duration="13582000" />
       <workItem from="1603150661172" duration="686000" />
+      <workItem from="1605403697440" duration="122000" />
     </task>
     <servers />
   </component>
